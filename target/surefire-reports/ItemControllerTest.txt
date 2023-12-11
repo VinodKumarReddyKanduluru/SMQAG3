@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: ItemControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Coverage - 0.1999 Time elapsed: 0.017 s <<< FAILURE! -- in ItemControllerTest
+ItemControllerTest.testDisplayMenu -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.service.MenuService.getAllMenus()" because "this.menuService" is null
+	at ItemControllerTest.testDisplayMenu(ItemControllerTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
